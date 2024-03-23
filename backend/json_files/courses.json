@@ -1,0 +1,66 @@
+[
+  {
+    "courseID": "0",
+    "courseName": "BIOL 100",
+    "department": "Biology",
+    "timeOfDay": 10,
+    "capacity": 5,
+    "studentsEnrolled": []
+  },
+  {
+    "courseID": "1",
+    "courseName": "CHEM 100",
+    "department": "Chemistry",
+    "timeOfDay": 9,
+    "capacity": 5,
+    "studentsEnrolled": []
+  },
+  {
+    "courseID": "2",
+    "courseName": "CMPT 100",
+    "department": "Computer Science",
+    "timeOfDay": 10,
+    "capacity": 5,
+    "studentsEnrolled": []
+  },
+  {
+    "courseID": "3",
+    "courseName": "ENGL 100",
+    "department": "English",
+    "timeOfDay": 9,
+    "capacity": 5,
+    "studentsEnrolled": []
+  },
+  {
+    "courseID": "4",
+    "courseName": "ENGL 100",
+    "department": "English",
+    "timeOfDay": 11,
+    "capacity": 5,
+    "studentsEnrolled": []
+  },
+  {
+    "courseID": "5",
+    "courseName": "MATH 100",
+    "department": "Mathematics",
+    "timeOfDay": 10,
+    "capacity": 5,
+    "studentsEnrolled": []
+  },
+  {
+    "courseID": "6",
+    "courseName": "MATH 100",
+    "department": "Mathematics",
+    "timeOfDay": 11,
+    "capacity": 5,
+    "studentsEnrolled": []
+  },
+  {
+    "courseID": "7",
+    "courseName": "PHYS 100",
+    "department": "Physics",
+    "timeOfDay": 9,
+    "capacity": 5,
+    "studentsEnrolled": []
+  }
+]

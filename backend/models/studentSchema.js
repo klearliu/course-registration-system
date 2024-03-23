@@ -12,8 +12,8 @@ import mongoose from "mongoose";
 /* Example #2 Usage
 {
   "studentID": "1",
-  "name": "John Doe",
-  "email": "john.doe@example.com",
+  "name": "Hugh Jazz",
+  "email": "hughjazz@school.com",
   "registeredCourses": [
     "1234567890_DB_student_id_1",
     "1234567890_DB_student_id_2"

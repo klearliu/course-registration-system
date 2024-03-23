@@ -1,0 +1,44 @@
+[
+  {
+    "studentID": "0",
+    "name": "Clear Liu",
+    "email": "clearliu@school.com",
+    "registeredCourses": []
+  },
+  {
+    "studentID": "1",
+    "name": "Hugh Jazz",
+    "email": "hughjazz@school.com",
+    "registeredCourses": []
+  },
+  {
+    "studentID": "2",
+    "name": "Howard Deez",
+    "email": "howarddeez@school.com",
+    "registeredCourses": []
+  },
+  {
+    "studentID": "3",
+    "name": "Mike Rotch",
+    "email": "mikerotch@school.com",
+    "registeredCourses": []
+  },
+  {
+    "studentID": "4",
+    "name": "Heywood Jablowme",
+    "email": "heywoodjablowme@school.com",
+    "registeredCourses": []
+  },
+  {
+    "studentID": "5",
+    "name": "Lee Keybum",
+    "email": "leekeybum@school.com",
+    "registeredCourses": []
+  },
+  {
+    "studentID": "6",
+    "name": "Lig Mah",
+    "email": "ligmah@school.com",
+    "registeredCourses": []
+  }
+]
