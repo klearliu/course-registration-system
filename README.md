@@ -16,23 +16,23 @@ The project utilizes the following dependencies:
 
 (backend)
 
-- "dependencies": {
+- `"dependencies": {
   "cors": "^2.8.5",
   "express": "^4.19.1",
   "mongoose": "^8.2.3",
   "nodemon": "^3.1.0"
-  }
+  }`
 
 (frontend)
 
-- "dependencies": {
+- `"dependencies": {
   "axios": "^1.6.8",
   "react": "^18.2.0",
   "react-dom": "^18.2.0",
   "react-icons": "^5.0.1",
   "react-router-dom": "^6.22.3"
-  },
-- "devDependencies": {
+  },`
+- `"devDependencies": {
   "@types/react": "^18.2.66",
   "@types/react-dom": "^18.2.22",
   "@vitejs/plugin-react": "^4.2.1",
@@ -44,7 +44,7 @@ The project utilizes the following dependencies:
   "postcss": "^8.4.38",
   "tailwindcss": "^3.4.1",
   "vite": "^5.2.0"
-  }
+  }`
 
 ## .gitignore
 
