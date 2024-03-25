@@ -78,10 +78,10 @@ To run the project locally, follow these steps or download the shared google dri
   - ex: `http://localhost:8000/courses/0`
 - **GET** - Get Student by ID:
   - [http://localhost:8000/students/:id](http://localhost:8000/students/:id)
-  - ex: http://localhost:8000/students/0
+  - ex: `http://localhost:8000/students/0`
 - **PUT** - Add Course ID to Student:
   - [http://localhost:8000/students/add_course/:\_sid/:id](http://localhost:8000/students/add_course/:_sid/:id)
-  - ex: http://localhost:8000/students/add_course/65fe81d17e58a61ffb2f0d42/0
+  - ex: `http://localhost:8000/students/add_course/65fe81d17e58a61ffb2f0d42/0`
 - **DELETE** - Remove CourseID from Student: - [http://localhost:8000/students/remove_course/:\_sid/:id](http://localhost:8000/students/remove_course/:_sid/:id)
-  - ex: http://localhost:8000/students/remove_course/65fe81d17e58a61ffb2f0d42/0
+  - ex: `http://localhost:8000/students/remove_course/65fe81d17e58a61ffb2f0d42/0`
   </details>
