@@ -6,8 +6,8 @@ Realistically. Everything works except for the add and remove course for the UI.
 
 I have made it so that:
 
-- when a student enrolled into classes, they won't see that same class as a selection from course selection
-- if there is a time conflict then in the selection table the entire row will be highlighted yellow
+- enrolled classes won't be visible on selection
+- time conflicts with enrolled courses will be highlighted yellow on selection
 - when a student is selected from the current dropdown it shows its current enrolled courses
 
 ## Dependencies
