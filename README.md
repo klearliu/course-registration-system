@@ -85,3 +85,5 @@ To run the project locally, follow these steps or download the shared google dri
 - **DELETE** - Remove CourseID from Student: - [http://localhost:8000/students/remove_course/:\_sid/:id](http://localhost:8000/students/remove_course/:_sid/:id)
   - ex: `http://localhost:8000/students/remove_course/65fe81d17e58a61ffb2f0d42/0`
   </details>
+
+**Will have to refresh browser after doing these postman tests to see it work on the frontend**
