@@ -1,26 +1,21 @@
 import express from "express";
 import { PORT, mongoURL } from "./config.js";
 import mongoose from "mongoose";
-import { getAllStudents } from "./controllers/students.controller.js";
-import { getAllCourses } from "./controllers/courses.controller.js";
+import courseRoutes from "./routes/courseRoutes.js";
+import studentRoutes from "./routes/studentRoutes.js";
+import cors from "cors";
 
 const app = express();
 
+app.use(express.json());
+app.use(cors());
+
+app.use("/courses", courseRoutes);
+app.use("/students", studentRoutes);
+
 app.get("/", async (request, response) => {
-  try {
-    // Retrieve students data
-    const students = await getAllStudents();
-
-    // Retrieve courses data
-    const courses = await getAllCourses();
-
-    // Send the students data as a JSON response
-    //response.json(students);
-    response.json(courses);
-  } catch (error) {
-    console.error("Error retrieving students:", error);
-    response.status(500).send("Error retrieving students");
-  }
+  console.log(request);
+  return response.status(234).send("CMPT 315 Midterm");
 });
 
 mongoose

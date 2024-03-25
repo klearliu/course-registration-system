@@ -34,14 +34,12 @@ const studentSchema = new mongoose.Schema({
   email: {
     type: String,
     required: true,
+  },
+  registeredCourses: {
+    type: [String],
+    default: [],
     unique: true,
   },
-  registeredCourses: [
-    {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "course",
-    },
-  ],
 });
 
 export const Student = mongoose.model("Student", studentSchema);

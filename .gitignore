@@ -1,2 +1,5 @@
 backend/config.js
 backend/node_modules
+.DS_Store
+
+fronend/node_modules
